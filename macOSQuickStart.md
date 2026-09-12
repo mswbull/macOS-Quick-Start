@@ -68,7 +68,7 @@ llama serve -hf ggml-org/Qwen3.8-27B-GGUF:Q8_0
 ```
 
 ```
-Native Installs
+# Native Installs
 
 mas install 497799835 (Apple Xcode)
 mas install 408981434 (Apple iMovie)

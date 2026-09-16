@@ -32,6 +32,7 @@ brew install --cask antigravity
 brew install --cask linear
 brew install --cask localsend
 brew install --cask cryptomator
+brew install --cask moonlight
 brew install --cask godot
 brew install --cask bambu-studio
 brew install --cask balenaetcher
@@ -51,6 +52,7 @@ brew install --cask libreoffice
 brew install --cask steam
 brew install --cask heroic
 brew install --cask audacity
+brew install --cask transmit
 
 brew install fastfetch
 ```

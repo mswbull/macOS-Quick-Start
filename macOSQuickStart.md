@@ -29,6 +29,7 @@ brew install --cask docker-desktop
 brew install --cask claude
 brew install --cask claude-code
 brew install --cask antigravity
+brew install --cask opencode-desktop
 brew install --cask linear
 brew install --cask localsend
 brew install --cask cryptomator

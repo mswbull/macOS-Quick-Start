@@ -66,6 +66,34 @@ brew update
 ```
 
 ```
+# OpenCode Llama.cpp Configuration
+
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "llamacpp": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "llamaccp-server",
+      "options": {
+        "baseURL": "http://localhost:9931"
+      },
+      "models": {
+        "ggml-org/Qwen3.8-27B-GGUF:Q8_0": {
+          "name": "ggml-org/Qwen3.8-27B-GGUF:Q8_0",
+          "limit": {
+            "context": 90000,
+            "output": 90000
+          }
+        }
+      }
+    }
+  },
+  "mcp": {
+  }
+}
+```
+
+```
 # AI Models
 
 llama serve -hf ggml-org/Qwen3.8-27B-GGUF:Q8_0
